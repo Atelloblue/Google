@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- Google Custom Search script -->
+  <script async src="https://cse.google.com/cse.js?cx=f3dc260c4a9c1419e"></script>
+  <script>
+    // Function to simulate "I'm Feeling Lucky"
+    function imFeelingLucky() {
+      window.location.href = 'https://www.google.com/doodles';  // Replace with the desired URL
+    }
+
+    // Enable buttons and links
+    window.onload = function() {
+      document.getElementById('im_feeling_lucky').onclick = imFeelingLucky;
+    };
+  </script>
+  <!-- Favicon link -->
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1280px-Google_%22G%22_logo.svg.png" type="image/png">
+</head>
+<body>
+  <!-- HEADER 1 -->
+  <header>
+    <nav>
+      <ul id="nav_bar">
+        <li class="nav-links"><a href="https://mail.google.com/mail">Gmail</a></li>
+        <li class="nav-links"><a href="https://www.google.com/imghp?hl=en">Images</a></li>
+        <li id="sign_in"><a href="https://accounts.google.com/InteractiveLogin?continue=https://www.google.com/">Sign In</a></li>
+      </ul>  
+    </nav>  
+  </header>  
+
+  <!-- HEADER 2 -->
+  <header>
+    <nav>
+      <ul id="nav_bar2">
+        <li class="nav2-links"><a href="https://about.google/">About</a></li>
+        <li class="nav2-links"><a href="https://store.google.com/US/">Store</a></li>
+      </ul>  
+    </nav>  
+  </header>
+
+  <!-- GOOGLE IMG -->  
+  <div class="google">
+    <a href="https://www.merriam-webster.com/dictionary/googol" id="google_logo"><img src="https://web.archive.org/web/20240822100346im_/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"/></a>
+  </div>
+
+  <!-- GOOGLE CUSTOM SEARCH -->
+  <div class="form">
+    <!-- Google Custom Search Element (Search Box and Results) -->
+    <div class="gcse-search"></div>
+  </div>  
+
+  <!-- BUTTONS -->
+  <div class="buttons">  
+    <input type="button" value="Google Search" id="google_search" disabled>
+    <input type="button" value="I'm Feeling Lucky" id="im_feeling_lucky">
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <ul class="footer-left">
+      <li><a href="https://ads.google.com/intl/en_us/home/">Advertising</a></li>
+      <li><a href="https://smallbusiness.withgoogle.com">Business</a></li>
+      <li><a href="https://www.google.com/search/howsearchworks/">How Search Works</a></li> 
+    </ul>
+    <ul class="footer-right">    
+      <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+      <li><a href="https://policies.google.com/terms">Terms</a></li>
+      <li><a href="https://www.google.com/preferences">Settings</a></li>
+    </ul>
+  </footer>      
+</body>
+</html>
