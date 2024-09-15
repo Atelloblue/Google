@@ -1,0 +1,3 @@
+Disclaimer: This project is an independent creation and is not affiliated with, endorsed by, or in any way connected to Google Inc. All trademarks, logos
+and other intellectual property related to Google are the property of their respective owners. The purpose of this project is to remake the google interface 
+for learning how google was made and is intended for educational/experimental purposes only.
