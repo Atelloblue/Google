@@ -19,9 +19,20 @@
       window.location.href = 'https://www.google.com/doodles';  // Replace with the desired URL
     }
 
+    // Function to perform custom search
+    function performCustomSearch() {
+      // Use the specific ID for the input field
+      var query = document.querySelector('input#gsc-i-id1.gsc-input').value;
+      if (query) {
+        var searchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+        window.location.href = searchUrl;
+      }
+    }
+
     // Enable buttons and links
     window.onload = function() {
       document.getElementById('im_feeling_lucky').onclick = imFeelingLucky;
+      document.getElementById('google_search').onclick = performCustomSearch;
     };
   </script>
   <!-- Favicon link -->
@@ -65,7 +76,7 @@
 
   <!-- BUTTONS -->
   <div class="buttons">  
-    <input type="button" value="Google Search" id="google_search" disabled>
+    <input type="button" value="Google Search" id="google_search">
     <input type="button" value="I'm Feeling Lucky" id="im_feeling_lucky">
   </div>
 
