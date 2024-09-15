@@ -26,6 +26,20 @@
   </script>
   <!-- Favicon link -->
   <link rel="icon" href="Google.ico" type="image/ico">
+
+  <style>
+    /* Styles for the apps icon */
+    .apps-icon {
+      cursor: pointer;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-image: url('9dotgrid.webp'); /* Example icon */
+      background-size: cover;
+      position: relative;
+      top: 7px; /* Moves the icon down slightly */
+    }
+  </style>
 </head>
 <body>
   <!-- HEADER 1 -->
@@ -34,6 +48,9 @@
       <ul id="nav_bar">
         <li class="nav-links"><a href="https://mail.google.com/mail">Gmail</a></li>
         <li class="nav-links"><a href="https://www.google.com/imghp?hl=en">Images</a></li>
+        <li>
+          <div class="apps-icon"></div>
+        </li>
         <li id="sign_in"><a href="https://accounts.google.com/InteractiveLogin?continue=https://www.google.com/">Sign In</a></li>
       </ul>  
     </nav>  
