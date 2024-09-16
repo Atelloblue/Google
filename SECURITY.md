@@ -14,4 +14,4 @@ Below are the supported versions.
 ## Reporting a Vulnerability
 
 If you find a vulnerability please report it.
-to report it please visit [Google-Vulnerability-And-Bug-Form](https://atelloblue.github.io/Google-Vulnerability-And-Bug-Form/)
+To report it please visit [Google-Vulnerability-And-Bug-Form](https://atelloblue.github.io/Google-Vulnerability-And-Bug-Form/)
