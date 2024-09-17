@@ -10,6 +10,19 @@
   top: 7px; /* Moves the icon down slightly */
 }
 
+/* Search Button Styling */
+button.gsc-search-button.gsc-search-button-v2 {
+  margin-left: -1115px; /* Move the search button to the left */
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.gsc-search-button.gsc-search-button-v2:hover {
+}
+
 /* BASIC STYLES */
 body {
   margin: 0;
@@ -163,6 +176,29 @@ li.nav-links a:hover {
 
 .buttons input[type="button"]:active {
   background: #e0e0e0;
+}
+
+/* Search Box Styling */
+div#gsc-iw-id1.gsc-input-box {
+  border-radius: 24px; /* Smooth rounded corners */
+  border: 1px solid #dfe1e5; /* Light gray border */
+  padding: 10px;
+  width: 550px; /* Approximate width of the Google search box */
+  height: 25px;
+  background-color: #fff; /* White background */
+  display: flex;
+  align-items: center;
+  top: -20px; /* Move the box a tiny bit up */
+  margin-left: 10px; /* Move the box a tiny bit to the right */
+}
+
+/* Existing styles for the input inside the search box */
+div#gsc-iw-id1.gsc-input-box input {
+  border: none; /* Removes inner input border */
+  outline: none; /* Removes outline when focused */
+  width: 100%;
+  font-size: 16px;
+  margin-left: 28px !important; /* Move the input field a tiny bit to the right with higher priority */
 }
 
 /* FOOTER */
