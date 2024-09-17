@@ -201,6 +201,10 @@ div#gsc-iw-id1.gsc-input-box input {
   margin-left: 28px !important; /* Move the input field a tiny bit to the right with higher priority */
 }
 
+span#gs_cb50.gscb_a {
+  color: #707070;
+}
+
 /* FOOTER */
 footer  {
   background: #f2f2f2;
