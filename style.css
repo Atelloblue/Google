@@ -192,7 +192,7 @@ div#gsc-iw-id1.gsc-input-box {
 /* Adjust the size if the device width is smaller than 550px */
 @media screen and (max-width: 550px) {
   div#gsc-iw-id1.gsc-input-box {
-    width: 85%; /* Adjust the width to be responsive */
+    width: 100%; /* Adjust the width to be responsive */
     padding: 8px;
     margin-left: 0px; /* Move the box a tiny bit to the left */
     top: -10px; /* Slight adjustment to keep alignment */
