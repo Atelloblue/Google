@@ -189,16 +189,6 @@ div#gsc-iw-id1.gsc-input-box {
   margin-left: 10px; /* Move the box a tiny bit to the right */
 }
 
-/* Adjust the size if the device width is smaller than 550px */
-@media screen and (max-width: 550px) {
-  div#gsc-iw-id1.gsc-input-box {
-    width: 100%; /* Adjust the width to be responsive */
-    padding: 8px;
-    margin-left: 0px; /* Move the box a tiny bit to the left */
-    top: -10px; /* Slight adjustment to keep alignment */
-  }
-}
-
 /* Existing styles for the input inside the search box */
 div#gsc-iw-id1.gsc-input-box input {
   border: none; /* Removes inner input border */
