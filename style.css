@@ -10,6 +10,11 @@
   top: 7px; /* Moves the icon down slightly */
 }
 
+/* Styles for the apps icon */
+/*.apps-icon:hover {
+  COMING SOON:
+} /*
+
 /* Search Button Styling */
 button.gsc-search-button.gsc-search-button-v2 {
   margin-left: -1115px; /* Move the search button to the left */
@@ -111,6 +116,10 @@ li.nav-links a:hover {
 
 .nav2-links {
   color: #404040;
+}
+
+li.nav2-links a:hover {
+  text-decoration: underline;
 }
 
 /* GOOGLE AREA */
