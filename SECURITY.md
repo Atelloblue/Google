@@ -10,6 +10,7 @@ Below are the supported versions.
 | [v2.2.1](https://github.com/Atelloblue/GoogleClone/releases/tag/v2.2.1)  | :white_check_mark: |
 | [v2.2.0](https://github.com/Atelloblue/GoogleClone/releases/tag/v2.2.0)  | :x:                |
 | [v2.1.0](https://github.com/Atelloblue/GoogleClone/releases/tag/v2.1.0)  | :x:                |
+* I Am Aware This Is Out Of Date Update Soon!
 
 ## Reporting a Vulnerability
 
