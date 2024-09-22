@@ -135,7 +135,7 @@ li.nav-links a:hover {
 }
 
 #form-search {
-  width: 300px;
+  width: 900px;
   line-height: 24px;
   padding: 10px 5px;
 }
@@ -164,15 +164,10 @@ li.nav-links a:hover {
   margin: 5px;
   text-align: center;
   line-height: 1.5;
-  transition: box-shadow 0.3s ease;
 }
 
 .buttons input[type="button"]:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.buttons input[type="button"]:active {
-  background: #e0e0e0;
 }
 
 /* Search Box Styling */
@@ -189,6 +184,10 @@ div#gsc-iw-id1.gsc-input-box {
   margin-left: 10px; /* Move the box a tiny bit to the right */
 }
 
+div#gsc-iw-id1.gsc-input-box:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Adjust the size if the device width is smaller than 550px */
 @media screen and (max-width: 550px) {
   div#gsc-iw-id1.gsc-input-box {
@@ -203,9 +202,10 @@ div#gsc-iw-id1.gsc-input-box {
 div#gsc-iw-id1.gsc-input-box input {
   border: none; /* Removes inner input border */
   outline: none; /* Removes outline when focused */
-  width: 100%;
+  width: 90% !important; /* Adjusts the width to be responsive */
+  height: 35px !important;
   font-size: 16px;
-  margin-left: 28px !important; /* Move the input field a tiny bit to the right with higher priority */
+  margin-left: 8px !important; /* Move the input field a tiny bit to the right with higher priority */
 }
 
 span#gs_cb50.gscb_a {
